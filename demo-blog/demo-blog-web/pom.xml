@@ -46,6 +46,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.19</version>
+        </dependency>
+
+        <dependency>
             <groupId>ru.kpfu.itis.11905</groupId>
             <artifactId>demo-blog-impl</artifactId>
             <version>0.0.1-SNAPSHOT</version>

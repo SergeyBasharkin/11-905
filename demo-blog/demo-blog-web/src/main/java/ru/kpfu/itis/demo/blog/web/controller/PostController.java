@@ -20,11 +20,11 @@ public class PostController {
     public PostController(BlogPostService blogPostService) {
         this.blogPostService = blogPostService;
     }
-
-    @GetMapping("/proj")
-    public List<PostDTO> find(){
-        return blogPostService.findAllProj();
-    }
+//
+//    @GetMapping("/proj")
+//    public List<PostDTO> find(){
+//        return blogPostService.findAllProj();
+//    }
     @GetMapping
     public Page<PostDTO> findAll( @RequestParam(required = false) String name, Pageable pageable){
         return blogPostService.findAllByName(name, pageable);

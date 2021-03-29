@@ -11,6 +11,9 @@
 
     <modules>
         <module>demo-blog-api</module>
+        <module>demo-blog-impl</module>
+        <module>demo-blog-client</module>
+        <module>demo-blog-web</module>
     </modules>
 
 </project>

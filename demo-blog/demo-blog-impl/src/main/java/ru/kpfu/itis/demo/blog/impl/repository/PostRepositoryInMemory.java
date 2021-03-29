@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Data
 @Component
-public class PostRepository {
+public class PostRepositoryInMemory {
     private List<PostEntity> posts;
 
     public void initPosts(List<PostEntity> posts){

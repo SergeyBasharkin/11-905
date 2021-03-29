@@ -19,7 +19,7 @@ public class CommentEntity {
     @CreatedDate
     public Date createdDate;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private UserEntity account;
 
     @ManyToOne
