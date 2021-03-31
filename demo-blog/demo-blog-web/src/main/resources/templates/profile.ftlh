@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Demo-blog</title>
+    <title>profile</title>
     <link rel="stylesheet" href="/css/bootstrap.css">
 </head>
 <body>
@@ -28,7 +28,7 @@
 
 </div>
 <div class="container">
-    Hello, ${hello}!
+    Hi, ${user.username}!
 </div>
 </body>
 </html>

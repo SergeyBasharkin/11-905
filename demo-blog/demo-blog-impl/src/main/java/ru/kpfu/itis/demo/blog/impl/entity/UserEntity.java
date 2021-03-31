@@ -1,10 +1,12 @@
 package ru.kpfu.itis.demo.blog.impl.entity;
 
 import lombok.Data;
+import lombok.ToString;
 
 import javax.persistence.*;
 
 @Data
+@ToString
 @Entity
 @Table(name = "account")
 public class UserEntity {
@@ -12,6 +14,13 @@ public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String username;
+    private String password;
+    @Enumerated(EnumType.STRING)
+    private Role role;
 
-    private String name;
+
+    public enum Role {
+        ADMIN, USER
+    }
 }
