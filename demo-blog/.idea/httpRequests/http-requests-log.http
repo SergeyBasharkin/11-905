@@ -1,8 +1,0 @@
-GET http://localhost:8080/post
-Accept: */*
-Cache-Control: no-cache
-
-<> 2021-02-22T113122.200.json
-
-###
-
