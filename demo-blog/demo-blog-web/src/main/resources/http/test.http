@@ -1,0 +1,23 @@
+POST http://localhost:8080/posts/1/comments
+Content-Type: application/json
+
+{
+  "text": "zdarova x3"
+}
+
+#####
+
+GET http://localhost:8080/posts/1/comments
+
+####
+DELETE http://localhost:8080/posts/1/comments/1
+
+###
+
+PATCH http://localhost:8080/posts/1/comments/2
+Content-Type: application/json
+
+{
+"postId": 1,
+"text": "hiii"
+}

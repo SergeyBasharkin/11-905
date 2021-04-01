@@ -13,5 +13,16 @@ public class UserEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String name;
+    private String username;
+
+    public enum Role {
+        ADMIN, USER
+    }
+
+    @Enumerated(value = EnumType.STRING)
+    private Role role;
+
+    private String password;
+
+
 }
