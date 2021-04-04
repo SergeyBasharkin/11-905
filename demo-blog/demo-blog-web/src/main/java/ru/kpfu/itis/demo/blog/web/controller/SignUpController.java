@@ -20,8 +20,8 @@ public class SignUpController {
     }
 
     @PostMapping("/signUp")
-    public String signUp(@RequestBody UserDTO userDTO) {
+    public String signUp(UserDTO userDTO) {
         userService.save(userDTO);
-        return "redirect:/signIn";
+        return "redirect:/profile";
     }
 }
