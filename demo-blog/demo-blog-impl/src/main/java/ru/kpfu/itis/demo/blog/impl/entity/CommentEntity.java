@@ -1,6 +1,7 @@
 package ru.kpfu.itis.demo.blog.impl.entity;
 
 import lombok.Data;
+import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.data.annotation.CreatedDate;
 
 import javax.persistence.*;
@@ -16,10 +17,10 @@ public class CommentEntity {
     public Long id;
 
     public String text;
-    @CreatedDate
+    @CreationTimestamp
     public Date createdDate;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     private UserEntity account;
 
     @ManyToOne
