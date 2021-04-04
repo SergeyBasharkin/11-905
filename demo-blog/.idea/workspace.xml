@@ -1,118 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9c3c01ae-5c7f-4466-9820-9c72e191bc4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/aspect/DemoAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/aspect/DemoBefore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/jpa/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/service/BlogCommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/service/TestAopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/command/DemoAspectCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/11-905.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e56b33cc-0093-4dc7-97eb-2c08049c5c9e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e56b33cc-0093-4dc7-97eb-2c08049c5c9e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e56b33cc-0093-4dc7-97eb-2c08049c5c9e/storage_v2/_src_/database/TEST_BD.Dw8D1g/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e56b33cc-0093-4dc7-97eb-2c08049c5c9e/storage_v2/_src_/database/TEST_BD.Dw8D1g/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-blog-api/src/main/java/ru/kpfu/itis/demo/blog/api/dto/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-api/src/main/java/ru/kpfu/itis/demo/blog/api/dto/CommentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-blog-api/src/main/java/ru/kpfu/itis/demo/blog/api/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-api/src/main/java/ru/kpfu/itis/demo/blog/api/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-blog-api/src/main/java/ru/kpfu/itis/demo/blog/api/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-api/src/main/java/ru/kpfu/itis/demo/blog/api/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-blog-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/config/BlogImplConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/config/BlogImplConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/entity/CommentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/entity/CommentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/entity/PostEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/entity/PostEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/jpa/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/jpa/repository/PostRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/repository/PostRepositoryInMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/jpa/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/jpa/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/service/BlogCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/service/BlogCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-blog-impl/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-impl/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-blog-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/command/InitRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/command/InitRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/DemoBlogWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/DemoBlogWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-blog-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-blog-web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo-blog@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo-blog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo-blog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="demo-blog: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo-blog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="demo-blog: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo-blog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="demo-blog: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo-blog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="demo-blog: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo-blog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="demo-blog: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="comment: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo-blog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="demo-blog: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="post: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Aspect" />
         <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -121,10 +67,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenRunner">
@@ -132,16 +78,23 @@
   </component>
   <component name="ProjectId" id="1opMqdBQIonVtl2Acz3tv8EYMio" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="h2&#10;postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../alta" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -169,19 +122,20 @@
       </list>
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Spring Boot.DemoBlogWebApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoBlogApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-blog-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.kpfu.itis.demo.blog.api.DemoBlogApiApplication" />
@@ -211,36 +165,7 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@260c30d7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@260c30d7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6f421db7" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@260c30d7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1437a6ab" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@260c30d7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@cd114ac" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\Sergey\AppData\Roaming\Subversion</configuration>
   </component>
@@ -264,43 +189,99 @@
       <workItem from="1616569766883" duration="1994000" />
       <workItem from="1616996349575" duration="740000" />
       <workItem from="1617002001457" duration="3338000" />
+      <workItem from="1617547458283" duration="2182000" />
+      <workItem from="1617549725693" duration="19898000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="582" y="255" key="#Assign_Data_Sources" timestamp="1617553237388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="582" y="255" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1617553237388" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617556676012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1617556676012" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1617573380355">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1617573380355" />
+    <state width="1323" height="344" key="GridCell.Tab.0.bottom" timestamp="1617568779502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="344" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617568779502" />
+    <state width="1323" height="344" key="GridCell.Tab.0.center" timestamp="1617568779501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="344" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617568779501" />
+    <state width="1323" height="344" key="GridCell.Tab.0.left" timestamp="1617568779501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="344" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617568779501" />
+    <state width="1323" height="344" key="GridCell.Tab.0.right" timestamp="1617568779501">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="344" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617568779501" />
+    <state width="1323" height="344" key="GridCell.Tab.1.bottom" timestamp="1617568779502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="344" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617568779502" />
+    <state width="1323" height="344" key="GridCell.Tab.1.center" timestamp="1617568779502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="344" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1617568779502" />
+    <state width="1323" height="344" key="GridCell.Tab.1.left" timestamp="1617568779502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="344" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1617568779502" />
+    <state width="1323" height="344" key="GridCell.Tab.1.right" timestamp="1617568779502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="344" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1617568779502" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1617553436097">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1617553436097" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1617571881431">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1617571881431" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1617549652045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1617549652045" />
+    <state x="581" y="224" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1617556474418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="581" y="224" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1617556474418" />
+    <state x="569" y="251" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1617558643178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="569" y="251" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1617558643178" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1617567215307">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1617567215307" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/controller/PostController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/repository/PostRepositoryInMemory.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo-blog-impl/src/main/java/ru/kpfu/itis/demo/blog/impl/service/BlogPostService.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/command/InitRunner.java</url>
           <line>48</line>
@@ -310,11 +291,6 @@
           <url>file://$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/command/DemoAspectCommand.java</url>
           <line>16</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo-blog-web/src/main/java/ru/kpfu/itis/demo/blog/web/controller/CommentController.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

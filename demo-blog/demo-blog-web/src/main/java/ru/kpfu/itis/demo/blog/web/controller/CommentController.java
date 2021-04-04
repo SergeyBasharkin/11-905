@@ -11,29 +11,34 @@ import ru.kpfu.itis.demo.blog.impl.entity.CommentEntity;
 @RequestMapping("/posts/{postId}/comments")
 public class CommentController {
 
-    private  final CommentService commentService;
+    private final CommentService commentService;
 
     public CommentController(CommentService commentService) {
         this.commentService = commentService;
     }
 
+//        @GetMapping
+//    public Page<CommentDTO> comments(@PathVariable Long postId, Pageable pageable) {
+//        return commentService.findAll(pageable);
+//    }
+
     @GetMapping
-    public Page<CommentDTO> comments(@PathVariable Long postId, Pageable pageable){
-        return commentService.findAll(pageable);
+    public Page<CommentDTO> commentsByPost(@PathVariable Long postId, Pageable pageable) {
+        return commentService.findAllByPostId(postId, pageable);
     }
 
     @PostMapping
-    public void save(@RequestBody CommentDTO commentDTO){
+    public void save(@RequestBody CommentDTO commentDTO) {
         commentService.save(commentDTO);
     }
 
     @DeleteMapping("/{commentId}")
-    public void delete(@PathVariable Long commentId){
+    public void delete(@PathVariable Long commentId) {
         commentService.deleteById(commentId);
     }
 
     @PatchMapping("/{commentId}")
-    public void update(@PathVariable Long commentId, @RequestBody CommentDTO commentDTO){
+    public void update(@PathVariable Long commentId, @RequestBody CommentDTO commentDTO) {
         commentDTO.setId(commentId);
         commentService.save(commentDTO);
     }
