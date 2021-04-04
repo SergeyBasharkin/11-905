@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: demo-blog
+      POSTGRES_USER: demo-blog
+      POSTGRES_PASSWORD: 123123
+    volumes:
+      - db:/var/lib/postgresql/data
+
+volumes:
+  db: 
