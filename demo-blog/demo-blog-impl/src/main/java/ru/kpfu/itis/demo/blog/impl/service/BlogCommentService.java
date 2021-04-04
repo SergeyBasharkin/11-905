@@ -25,10 +25,15 @@ public class BlogCommentService implements CommentService {
     }
 
     @Override
-    public Page<CommentDTO> findAll(Pageable pageable) {
-        return commentRepository.findAll(pageable)
+    public Page<CommentDTO> findAllByPostId(Long postId, Pageable pageable) {
+        return commentRepository.findAllByPost_Id(postId, pageable)
                 .map(commentEntity -> modelMapper.map(commentEntity, CommentDTO.class));
 
+    }
+
+    @Override
+    public Page<CommentDTO> findAll(Pageable pageable) {
+        return null;
     }
 
     @Override
