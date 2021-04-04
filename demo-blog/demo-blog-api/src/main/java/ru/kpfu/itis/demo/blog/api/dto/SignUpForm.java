@@ -9,16 +9,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class UserDTO {
-    private Long id;
+public class SignUpForm {
     private String name;
     private String email;
-    private Role role;
-    private State state;
-    public enum Role {
-        USER, ADMIN
-    }
-    public enum State {
-        ACTIVE, BANNED
-    }
+    private String password;
+    private String passwordAgain;
 }
