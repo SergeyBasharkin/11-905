@@ -49,11 +49,6 @@ public class BlogPostService implements PostService {
     }
 
     @Override
-    public Boolean delete(PostDTO postDTO) {
-        return null;
-    }
-
-    @Override
     public Boolean deleteById(Long aLong) {
         postRepository.deleteById(aLong);
         return false;

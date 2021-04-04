@@ -5,7 +5,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 import ru.kpfu.itis.demo.blog.api.dto.CommentDTO;
 import ru.kpfu.itis.demo.blog.api.service.CommentService;
-import ru.kpfu.itis.demo.blog.impl.entity.CommentEntity;
 
 @RestController
 @RequestMapping("/posts/{postId}/comments")
@@ -19,7 +18,7 @@ public class CommentController {
 
     @GetMapping
     public Page<CommentDTO> comments(@PathVariable Long postId, Pageable pageable){
-        return commentService.findAll(pageable);
+        return commentService.findAll(pageable, postId);
     }
 
     @PostMapping
