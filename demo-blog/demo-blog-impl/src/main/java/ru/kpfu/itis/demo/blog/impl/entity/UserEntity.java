@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.ToString;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Data
 @ToString
@@ -23,4 +24,7 @@ public class UserEntity {
     public enum Role {
         ADMIN, USER
     }
+
+    @OneToMany(mappedBy = "account", cascade = CascadeType.ALL)
+    public List<CommentEntity> comments;
 }
