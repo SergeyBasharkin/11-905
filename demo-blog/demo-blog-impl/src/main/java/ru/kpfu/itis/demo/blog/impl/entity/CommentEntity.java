@@ -21,9 +21,9 @@ public class CommentEntity {
     @CreationTimestamp
     public Date createdDate;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
     private UserEntity account;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private PostEntity post;
 }

@@ -2,7 +2,8 @@ POST http://localhost:8080/posts/1/comments
 Content-Type: application/json
 
 {
-  "text": "zdarova x3"
+  "text": "priveeet",
+  "accountId": 5
 }
 
 #####
@@ -10,7 +11,7 @@ Content-Type: application/json
 GET http://localhost:8080/posts/1/comments
 
 ####
-DELETE http://localhost:8080/posts/1/comments/1
+DELETE http://localhost:8080/posts/1/comments/2
 
 ###
 
@@ -18,6 +19,7 @@ PATCH http://localhost:8080/posts/1/comments/2
 Content-Type: application/json
 
 {
-"postId": 1,
-"text": "hiii"
+  "postId": 1,
+  "text": "helllll",
+  "accountId": 5
 }

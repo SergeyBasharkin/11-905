@@ -11,5 +11,5 @@ public class CommentDTO {
     private String text;
     private Date createdDate;
     private Long postId;
-    private Long userId;
+    private Long accountId;
 }
