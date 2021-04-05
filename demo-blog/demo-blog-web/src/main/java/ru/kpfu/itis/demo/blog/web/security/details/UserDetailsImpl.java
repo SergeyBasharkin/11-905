@@ -10,26 +10,26 @@ import java.util.Collections;
 
 public class UserDetailsImpl implements UserDetails {
 
-    private UserEntity userEntity;
+    private UserEntity user;
 
-    public UserDetailsImpl(UserEntity userEntity) {
-        this.userEntity = userEntity;
+    public UserDetailsImpl(UserEntity user) {
+        this.user = user;
     }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        SimpleGrantedAuthority authority = new SimpleGrantedAuthority(userEntity.getRole().toString());
+        SimpleGrantedAuthority authority = new SimpleGrantedAuthority(user.getRole().toString());
         return Collections.singleton(authority);
     }
 
     @Override
     public String getPassword() {
-        return userEntity.getPassword();
+        return this.user.getHashPassword();
     }
 
     @Override
     public String getUsername() {
-        return userEntity.getUsername();
+        return this.user.getEmail();
     }
 
     @Override
@@ -50,9 +50,5 @@ public class UserDetailsImpl implements UserDetails {
     @Override
     public boolean isEnabled() {
         return true;
-    }
-
-    public String getRole() {
-        return userEntity.getRole().toString();
     }
 }

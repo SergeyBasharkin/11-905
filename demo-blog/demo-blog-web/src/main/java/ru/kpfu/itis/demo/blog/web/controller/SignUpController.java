@@ -1,27 +1,32 @@
 package ru.kpfu.itis.demo.blog.web.controller;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import ru.kpfu.itis.demo.blog.api.dto.UserDTO;
-import ru.kpfu.itis.demo.blog.api.service.UserService;
+import ru.kpfu.itis.demo.blog.impl.service.BlogSignUpService;
+
+import javax.annotation.security.PermitAll;
 
 @Controller
 public class SignUpController {
-    @Autowired
-    private UserService userService;
 
+    @Autowired
+    private BlogSignUpService signUpService;
+
+    @PermitAll
     @GetMapping("/signUp")
-    public String signUpPage() {
-        return "signUp";
+    public String getSignUpPage() {
+        return "register";
     }
 
-    @PostMapping("/signUp")
+    @PermitAll
+    @PostMapping("signUp")
     public String signUp(UserDTO userDTO) {
-        userService.save(userDTO);
-        return "redirect:/profile";
+        if (signUpService.signUp(userDTO)) {
+            return "login";
+        }
+        return "register";
     }
 }

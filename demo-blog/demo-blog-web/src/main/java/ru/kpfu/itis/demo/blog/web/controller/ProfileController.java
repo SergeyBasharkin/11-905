@@ -1,17 +1,18 @@
 package ru.kpfu.itis.demo.blog.web.controller;
 
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import ru.kpfu.itis.demo.blog.web.security.details.UserDetailsImpl;
+
+import javax.annotation.security.PermitAll;
 
 @Controller
 public class ProfileController {
 
     @GetMapping("/profile")
-    public String getProfile(@AuthenticationPrincipal UserDetailsImpl userDetails, Model model) {
-        model.addAttribute("user", userDetails);
+    @PermitAll
+    @PreAuthorize("isAuthenticated()")
+    public String getProfilePage() {
         return "profile";
     }
 }

@@ -1,11 +1,17 @@
-package ru.kpfu.itis.demo.blog.api.dto;
+ package ru.kpfu.itis.demo.blog.api.dto;
 
-import lombok.Data;
-import lombok.ToString;
+ import lombok.AllArgsConstructor;
+ import lombok.Builder;
+ import lombok.Data;
+ import lombok.NoArgsConstructor;
 
-@Data
-@ToString
+ @Builder
+ @AllArgsConstructor
+ @NoArgsConstructor
+ @Data
 public class UserDTO {
-    private String username;
-    private String password;
+
+     public String email;
+     public String password;
+     public String name;
 }

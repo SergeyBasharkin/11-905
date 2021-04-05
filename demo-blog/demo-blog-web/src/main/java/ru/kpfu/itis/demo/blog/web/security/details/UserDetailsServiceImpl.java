@@ -8,15 +8,15 @@ import org.springframework.stereotype.Component;
 import ru.kpfu.itis.demo.blog.impl.entity.UserEntity;
 import ru.kpfu.itis.demo.blog.impl.jpa.repository.UserRepository;
 
-
-@Component("customUserDetailService")
+@Component("customUserDetailsService")
 public class UserDetailsServiceImpl implements UserDetailsService {
+
     @Autowired
-    private UserRepository userRepository;
+    private UserRepository repository;
 
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        UserEntity userEntity = userRepository.findByUsername(username).orElseThrow(() -> new UsernameNotFoundException("User not found"));
-        return new UserDetailsImpl(userEntity);
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+        UserEntity user = repository.findByEmail(email).orElseThrow(()-> new UsernameNotFoundException("User nor found"));
+        return new UserDetailsImpl(user);
     }
 }

@@ -1,0 +1,21 @@
+GET http://localhost:8080/posts
+
+###
+
+POST http://localhost:8080/posts/3/comments
+Content-Type: application/json
+
+{
+  "text": "Cool"
+}
+
+###
+DELETE http://localhost:8080/posts/3/comments/8
+
+###
+PATCH  http://localhost:8080/posts/3/comments/8
+Content-Type: application/json
+
+{
+  "text": "very well..."
+}

@@ -59,7 +59,7 @@ public class InitRunner implements CommandLineRunner {
 
 
         Page<PostEntity> posts = postRepository.findAll(PageRequest.of(1, 2));
-        List<CommentEntity> byPost_idIn = commentRepository.findByPost_IdIn(
+        List<CommentEntity> byPost_idIn = commentRepository.findByPostIdIn(
                 posts.stream()
                         .map(PostEntity::getId)
                         .collect(Collectors.toList())

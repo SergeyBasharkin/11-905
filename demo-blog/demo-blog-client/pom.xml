@@ -32,6 +32,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>ru.kpfu.itis.11905</groupId>
+            <artifactId>demo-blog-impl</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
     <build>
