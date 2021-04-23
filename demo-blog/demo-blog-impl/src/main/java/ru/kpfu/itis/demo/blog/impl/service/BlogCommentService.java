@@ -6,7 +6,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import ru.kpfu.itis.demo.blog.api.dto.CommentDTO;
-import ru.kpfu.itis.demo.blog.api.dto.PostDTO;
 import ru.kpfu.itis.demo.blog.api.service.CommentService;
 import ru.kpfu.itis.demo.blog.impl.entity.CommentEntity;
 import ru.kpfu.itis.demo.blog.impl.jpa.repository.CommentRepository;

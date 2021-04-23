@@ -9,11 +9,9 @@ import ru.kpfu.itis.demo.blog.api.dto.PostDTO;
 import ru.kpfu.itis.demo.blog.api.service.PostService;
 import ru.kpfu.itis.demo.blog.impl.entity.PostEntity;
 import ru.kpfu.itis.demo.blog.impl.jpa.repository.PostRepository;
-import ru.kpfu.itis.demo.blog.impl.jpa.repository.projection.OnlyTittlePost;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class BlogPostService implements PostService {

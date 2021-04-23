@@ -1,9 +1,7 @@
 package ru.kpfu.itis.demo.blog.impl.repository;
 
 import lombok.Data;
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
-import ru.kpfu.itis.demo.blog.api.dto.PostDTO;
 import ru.kpfu.itis.demo.blog.impl.entity.PostEntity;
 
 import java.util.List;

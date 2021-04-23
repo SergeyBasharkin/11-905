@@ -68,6 +68,11 @@
             <artifactId>jjwt</artifactId>
             <version>0.8.0</version>
         </dependency>
+        <dependency>
+            <groupId>ru.kpfu.itis.11905</groupId>
+            <artifactId>demo-blog-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 

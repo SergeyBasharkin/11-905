@@ -6,7 +6,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
-import org.springframework.stereotype.Component;
 import ru.kpfu.itis.demo.blog.impl.entity.CommentEntity;
 import ru.kpfu.itis.demo.blog.impl.entity.PostEntity;
 import ru.kpfu.itis.demo.blog.impl.jpa.repository.CommentRepository;

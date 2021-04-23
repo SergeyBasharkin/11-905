@@ -56,4 +56,10 @@ public class UserServiceImpl implements UserService {
     public Boolean deleteById(Long aLong) {
         return null;
     }
+
+    @Override
+    public Optional<UserDTO> findByEmail(String email) {
+        Optional<UserEntity> user = userRepository.findByEmail(email);
+        return user.map(userEntity -> Optional.of(modelMapper.map(userEntity, UserDTO.class))).orElseGet(() -> Optional.ofNullable(null));
+    }
 }

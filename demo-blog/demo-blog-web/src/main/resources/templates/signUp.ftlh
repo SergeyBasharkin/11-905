@@ -36,14 +36,56 @@
             <div class="card-body">
                 <form method="POST" action="/signUp">
                     <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control ${(emailError??)?string('is-invalid','')}"
+                               id="email"
+                               value="<#if user??>${user.email}</#if>" placeholder="Email">
+                        <#if emailError??>
+                            <div class="invalid-feedback">
+                                ${emailError}
+                            </div>
+                        </#if>
+                    </div>
+                    <div class="form-group">
                         <label for="username">Username</label>
-                        <input type="text" name="username" class="form-control" id="username"
-                               placeholder="Username">
+                        <input type="text" name="username"
+                               class="form-control ${(usernameError??)?string('is-invalid','')}"
+                               id="username"
+                               value="<#if user??>${user.username}</#if>" placeholder="Username">
+                        <#if usernameError??>
+                            <div class="invalid-feedback">
+                                ${usernameError}
+                            </div>
+                        </#if>
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input type="password" name="password" class="form-control" id="password"
-                               placeholder="Password">
+                        <input type="password" name="password"
+                               class="form-control ${(passwordError??)?string('is-invalid','')}"
+                               id="password"
+                               value="<#if user??>${user.password}</#if>" placeholder="Password">
+                        <#if passwordError??>
+                            <div class="invalid-feedback">
+                                ${passwordError}
+                            </div>
+                        </#if>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password confirmation</label>
+                        <input type="password" name="confirmPassword"
+                               class="form-control ${(confirmPasswordError??)?string('is-invalid','')}"
+                               id="confirmPassword"
+                               value="<#if user??>${user.confirmPassword}</#if>" placeholder="Password confirmation">
+                        <#if confirmPasswordError??>
+                            <div class="invalid-feedback">
+                                ${confirmPasswordError}
+                            </div>
+                        </#if>
+                        <label for="password" style="color: red">
+                            <#if passwordMatchError??>
+                                ${passwordMatchError}
+                            </#if>
+                        </label>
                     </div>
                     <button type="submit" class="btn btn-outline-success">signUp</button>
                 </form>
